@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="canvas">
+    <span id="squares" class="canvas__paint">
+    </span>
+    <div class="canvas__palette">
+        <div class="canvas__list">
+            <div class="canvas__select">
+                <span class="canvas__select_text">custom color</span>
+                <input class="canvas__input" type="color">
+            </div>
+            <div class="canvas__current">
+                <span class="canvas__current_text">CURRENT COLOR ></span>
+                <div class="canvas__current_color"></div>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <button class="form__button" type="submit">Download</button>
+        <button class="form__button" type="submit">Upload</button>
+    </div>
+</div>
+
+
+<script type="module" src="js/main.js"></script>
+<script type="module" src="js/palette.js"></script>
+</body>
+</html>
